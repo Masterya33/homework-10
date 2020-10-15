@@ -1,0 +1,96 @@
+main{
+	display: flex;
+}
+.flexbox1 {
+	display: flex;
+	background-color: violet;
+	width: 200px;
+	height: 430px;
+	margin: 10px 5px;
+}
+.flexbox2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 330px;
+	height: 440px;
+	margin: 10px 10px;
+
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+.img{
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/foto.jpg);
+	background-size: cover;
+	border: 1px solid white;
+	border-radius: 70px;
+}
+h6{
+	margin-bottom: -5px;
+}
+p{
+	font-size: 14px;
+}
+.inbox1{
+	margin: auto;
+	text-align: center;
+}
+.inbox2{
+	margin: auto;
+	text-align: center;
+}
+.inbox3{
+	margin: auto;
+	text-align: center;
+}
+.inbox4{
+	margin: auto;
+	text-align: center;
+}
+
+button{
+	background-color: turquoise;
+	border: white;
+}
+.box2{
+	display: flex;
+	flex-direction: column;
+	margin: 1px 1px;
+	width: 100px;
+	height: 200px;
+	background-color: tomato;
+	align-items: center;
+
+}
+.box3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1px 1px;
+	width: 100px;
+	height: 200px;
+	background-color: tomato;
+}
+.box4{
+	display: flex;
+	margin: 1px 1px;
+	width: 100px;
+	height: 200px;
+	background-color: tomato;
+}
+.box5{
+	display: flex;
+	flex-direction: column;
+	width: 330px;
+	height: 217px;
+	background-color: tomato;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
